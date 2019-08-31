@@ -1,4 +1,14 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<% include ../views/partials/head %>
+  </body>
+</html>
+<% include ../views/partials/header %>
 <div class="row mt-5">
   <div class="col-md-6 m-auto">
     <div class="card card-body">
@@ -26,9 +36,13 @@
         </div>
         <button type="submit" class="btn btn-primary btn-block">Login</button>
       </form>
+      <a href="/auth/login/facebook">
+        <button type="button" class="btn btn-info btn-block">Login with FaceBook</button>
+      </a>
       <p class="lead mt-4">
         No Account? <a href="/users/register">Register</a>
       </p>
     </div>
   </div>
 </div>
+<% include ../views/partials/footer %>
