@@ -86,8 +86,8 @@ function generateOrFindUser(accessToken, refreshToken, profile, done) {
 }
 // make a facebook developer account and use the clientID and clientSecret that is unique to you
 passport.use(new FacebookStrategy({
-    clientID: "1732713756872044",
-    clientSecret: "46fcd5d62067f01fd3520203c3be7246",
+    clientID: "374498073221325",
+    clientSecret: "5a8d29c32265aba02777e8638c776b8e",
     callbackURL: "http://localhost:3000/auth/facebook/return",
     profileFields: ['id', 'displayName', 'photos', 'email']
   },
