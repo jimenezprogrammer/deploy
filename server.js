@@ -18,7 +18,10 @@ const User = require('./models/user');
 var db = require('./config/keys').MongoURI;
 //connect to mongo using mongoose
 mongoose.connect(db, {
-  newURLParser: true
+  newURLParser: true,
+  socketTimeoutMS: 45000,
+  keepAlive: true,
+  reconnectTries: 10
 }).then(() => console.log("MongoDB connected")).catch(err => console.log(err));
 
 //use sessions for tracking logins
