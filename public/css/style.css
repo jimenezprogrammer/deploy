@@ -249,3 +249,39 @@ header .overlay {
   font-weight: 900;
   color: blue;
 }
+
+#background-div{
+  background-image: url("/assets/bg-01.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 900px;
+}
+
+.listitems{
+  font-size: 20px;
+  color: black;
+}
+
+.fa-twitter{
+  color: #38A1F3;
+}
+.fa-leaf{
+  color:green;
+}
+.fa-js-square{
+  color: yellow;
+}
+.fa-database{
+  color:grey;
+}
+.fa-node
+{
+  color:green;
+}
+.fa-git-alt{
+  color:#c9510c;
+}
+.fa-cloud
+{
+  color:purple;
+}
